@@ -21,6 +21,7 @@ const Header = ({ show }) => {
 
   return (
     <header className="header">
+       <div className="logo">Net-Show</div>
       <input
         type="text"
         placeholder="Search show..."
