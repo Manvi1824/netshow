@@ -1,0 +1,33 @@
+.show-details {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.6);
+}
+
+.show-details h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #e50914;
+}
+
+.show-details img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.show-details p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  color: #ddd;
+}
+
+.show-details strong {
+  color: #fff;
+}
