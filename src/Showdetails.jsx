@@ -8,6 +8,11 @@ const Showdetails = ({show}) => {
   const selectedOne = show.find((e)=>{
     return e.id.toString()===id
   })
+
+
+  if (!selectedOne) {
+    return <p>Loading...</p> // avoid crash
+  }
   return (
     <div className='show-details'>
         
